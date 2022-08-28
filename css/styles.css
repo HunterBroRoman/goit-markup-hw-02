@@ -1,0 +1,98 @@
+body {
+    background-color: #F5F5F5;
+    }
+
+/* style logo header */
+.logo {
+    color: #2196F3;
+}
+.logo-start {
+    color:#000000;
+}
+.logo-end {
+    color: #FFFFFF;
+}
+
+ul {
+    list-style: none;
+}
+ /*style nav header*/
+
+.site-nav .link {
+    color: #212121;
+} 
+.site-nav .link:hover,
+.site-nav .link:focus {
+    color: #2196F3;
+}
+
+/* style contact header*/
+
+.site-contact .info {
+    color:#000000;
+}
+.site-contact .info:hover,
+.site-contact .info:focus {
+    color:#2196F3;
+}
+
+/* style index.html*/
+
+/* style heroy*/
+.heroy {
+    background-color: #2F303A;
+}
+
+.slogan {
+    color: #FFFFFF;
+}
+
+button {
+    background-color: #2196F3;
+    color:#FFFFFF;
+}
+
+/* style skills*/
+.section-h2 {
+    color: #212121;
+}
+.section-text {
+    color: #757575;
+}
+/* style activity*/
+
+.section-h3 {
+    color: #212121;
+}
+
+/* style our-team*/
+
+.our-team {
+    background-color:#F5F4FA;
+}
+
+.card {
+    background-color:#FFFFFF;
+}
+
+
+
+
+
+
+
+
+
+
+/* style footer */
+
+.footer {
+    background-color: #2F303A;
+}
+
+.site-footer .site-address {
+    color: #FFFFFF; 
+}
+.site-footer .info {
+    color:#FFFFFF99;
+}  
