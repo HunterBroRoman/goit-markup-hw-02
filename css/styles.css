@@ -1,39 +1,93 @@
+:root {
+    --primary-text-color:#757575;
+    --title-text-color: #212121;
+    --accent-color:#2196F3;
+    --logo-color:#000000;
+    --white-color:#FFFFFF;
+    --adress-color:#FFFFFF99;
+}
+
 body {
-    background-color: #F5F5F5;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    color: var(--title-text-color);
+    }
+h1, h2, h3 {
+    color: var(--title-text-color);
+    }
+    h3 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    }
+p {
+    color: var(--primary-text-color);
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
     }
 
-/* style logo header */
+/* style logo header and footer*/
 .logo {
-    color: #2196F3;
+    color:var(--accent-color);
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    /* identical to box height */
+    letter-spacing: 0.03em;
 }
 .logo-start {
-    color:#000000;
+    color:var(--logo-color);
 }
 .logo-end {
-    color: #FFFFFF;
+    color: var(--white-color);
 }
 
+/* general style ul */
 ul {
     list-style: none;
 }
- /*style nav header*/
+
+ /* general style nav header*/
 
 .site-nav .link {
-    color: #212121;
+    color: var(--title-text-color);
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+}
+.site-nav .link.current {
+    color: var(--accent-color);
 } 
 .site-nav .link:hover,
 .site-nav .link:focus {
-    color: #2196F3;
+    color: var(--accent-color);
 }
 
-/* style contact header*/
+/* general style contact header*/
 
 .site-contact .info {
-    color:#000000;
+    color: var(--title-text-color);
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
 }
 .site-contact .info:hover,
 .site-contact .info:focus {
-    color:#2196F3;
+    color: var(--accent-color);
 }
 
 /* style index.html*/
@@ -44,26 +98,37 @@ ul {
 }
 
 .slogan {
-    color: #FFFFFF;
+    color: var(--white-color);
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 60px;
+    /* or 136% */
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
 }
-
-button {
-    background-color: #2196F3;
-    color:#FFFFFF;
+ button {
+    background-color: var(--accent-color);
+    color: var(--white-color);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    text-align: center;
+    cursor: pointer;
+ }
+button:hover,
+button:active {
+    background-color: var(--white-color);
+    color: var(--accent-color);
+    cursor: pointer;
 }
-
 /* style skills*/
-.section-h2 {
-    color: #212121;
-}
-.section-text {
-    color: #757575;
-}
+
 /* style activity*/
 
-.section-h3 {
-    color: #212121;
-}
+
+
 
 /* style our-team*/
 
@@ -72,17 +137,10 @@ button {
 }
 
 .card {
-    background-color:#FFFFFF;
+    background-color: var(--white-color);
+    width: 270px;
+    height: 368px
 }
-
-
-
-
-
-
-
-
-
 
 /* style footer */
 
@@ -90,9 +148,60 @@ button {
     background-color: #2F303A;
 }
 
-.site-footer .site-address {
-    color: #FFFFFF; 
+.site-address {
+    color: #FFFFFF;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    /* or 171% */
+    letter-spacing: 0.03em 
 }
+.site-address:hover, 
+.site-address:focus {
+    color: #2196F3;
+}
+
 .site-footer .info {
     color:#FFFFFF99;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+
 }  
+ 
+.info:hover, 
+.info:focus {
+    color: #2196F3;
+}
+
+
+/* style portfolio */
+/* style filter */
+ .filter-list button {
+    color: #212121;
+    background-color:#F5F4FA;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+    
+    
+ }
+
+.filter-list button:hover,
+.filter-list button:focus {
+    color:#FFFFFF;
+    background-color: #2196F3;
+    cursor: pointer;
+}
+
+/* style work */
+
+.work-link .container {
+    background-color: var(--white-color);
+    width: 370px;
+    height: 405px;
+}
