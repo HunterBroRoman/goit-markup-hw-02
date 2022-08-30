@@ -177,13 +177,16 @@ ul {
 }
 
 .site-address {
-    color: #FFFFFF;
     font-family: 'Roboto';
+    font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 24px;
     letter-spacing: 0.03em;
+    color: #FFFFFF;
     text-decoration: none;
+
+
 }
 .site-address:hover, 
 .site-address:focus {
@@ -191,14 +194,14 @@ ul {
 }
 
 .site-footer .info {
-    color:#FFFFFF99;
     font-family: 'Roboto';
+    font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 24px;
     letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
     text-decoration: none;
-
 }  
  
 .info:hover, 
