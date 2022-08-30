@@ -11,33 +11,21 @@ body {
     font-family: Roboto, Arial, Helvetica, sans-serif;
     color: var(--title-text-color);
     }
-h1, h2, h3 {
+.section-title {
     color: var(--title-text-color);
+    text-align: center;
     }
-h3 {
-    font-family: 'Roboto';
-    font-size: 14px;
-    line-height: 16px;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    }
-p {
-    color: var(--primary-text-color);
-    font-family: 'Roboto';
-    font-size: 14px;
-    line-height: 24px;
-    }
+ 
 
 /* style logo header and footer*/
 .logo {
     color:var(--accent-color);
     font-family: 'Raleway';
-    font-style: normal;
     font-weight: 700;
     font-size: 26px;
     line-height: 31px;
-    /* identical to box height */
     letter-spacing: 0.03em;
+    text-decoration: none;
 }
 .logo-start {
     color:var(--logo-color);
@@ -56,11 +44,11 @@ ul {
 .site-nav .link {
     color: var(--title-text-color);
     font-family: 'Roboto';
-    font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 16px;
     letter-spacing: 0.02em;
+    text-decoration: none;
 }
 .site-nav .link.current {
     color: var(--accent-color);
@@ -75,11 +63,11 @@ ul {
 .site-contact .info {
     color: var(--title-text-color);
     font-family: 'Roboto';
-    font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 16px;
     letter-spacing: 0.02em;
+    text-decoration: none;
 }
 .site-contact .info:hover,
 .site-contact .info:focus {
@@ -96,16 +84,14 @@ ul {
 .slogan {
     color: var(--white-color);
     font-family: 'Roboto';
-    font-style: normal;
     font-weight: 900;
     font-size: 44px;
     line-height: 60px;
-    /* or 136% */
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
 }
- button {
+.button {
     background-color: var(--accent-color);
     color: var(--white-color);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
@@ -113,17 +99,43 @@ ul {
     text-align: center;
     cursor: pointer;
  }
-button:hover,
-button:active {
+.button:hover,
+.button:active {
     background-color: var(--white-color);
     color: var(--accent-color);
     cursor: pointer;
 }
 /* style skills*/
 
+.skills-title {
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #212121;
+    }
+.skills-text {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: #757575;
+}    
+
 /* style activity*/
 
-
+.activity-title {
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
 
 
 /* style our-team*/
@@ -138,6 +150,26 @@ button:active {
     height: 368px
 }
 
+.card-title {
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+.card-text {
+    color: #757575;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    }
+
+
 /* style footer */
 
 .footer {
@@ -147,12 +179,11 @@ button:active {
 .site-address {
     color: #FFFFFF;
     font-family: 'Roboto';
-    font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 24px;
-    /* or 171% */
-    letter-spacing: 0.03em 
+    letter-spacing: 0.03em;
+    text-decoration: none;
 }
 .site-address:hover, 
 .site-address:focus {
@@ -162,11 +193,11 @@ button:active {
 .site-footer .info {
     color:#FFFFFF99;
     font-family: 'Roboto';
-    font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 24px;
     letter-spacing: 0.03em;
+    text-decoration: none;
 
 }  
  
@@ -201,3 +232,21 @@ button:active {
     width: 370px;
     height: 405px;
 }
+.container-title {
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 36px;
+    letter-spacing: 0.06em;
+    color: #212121;
+    text-align: center;
+}
+ .container-text {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.03em;
+    color: #757575;
+    text-align: center;
+ }
