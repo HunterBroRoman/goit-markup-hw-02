@@ -57,7 +57,7 @@ ul {
 /* general style contact header*/
 
 .site-contact .info {
-    color: var(--title-text-color);
+    color: var(--primary-text-color);
     font-weight: 500;
     font-size: 14px;
     line-height: 1.15;
